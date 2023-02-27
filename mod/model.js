@@ -9,6 +9,15 @@ YersLost : Date ,
 historyLost : Date,
 PhoneNumber : Number,
 notes : String,
+},
+{
+    Pname : String  ,
+    Pcountry : String ,
+    Pgender : String,
+    Pwaiting_Place : String,
+    PhistoryLost : Date,
+    PPhoneNumber : Number,
+    Pnotes : String,
 })
 
 module.exports = mongoos.model('PRODUCTS',products);

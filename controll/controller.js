@@ -18,8 +18,7 @@ module.exports = {
             YersLost: req.body.YersLost,
             historyLost: req.body.historyLost,
             PhoneNumber: req.body.PhoneNumber,
-            notes: req.body.notes,
-            
+            notes: req.body.notes
         }).save()
         if (product){
          res.status(200).json({"product" : product});
